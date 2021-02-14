@@ -28,7 +28,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <dependency> 
+        <groupId>com.spotify</groupId>
+			<artifactId>docker-maven-plugin</artifactId>
+		<version>1.0.0</version>
+</dependency>
         <!--测试依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
