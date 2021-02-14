@@ -45,6 +45,7 @@
     </dependencies>
     <!--打包插件-->
     <build>
+        <finalName>greet</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
