@@ -19,6 +19,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <docker.image.prefix>amos</docker.image.prefix>
   </properties>
   
      <!--项目依赖-->
