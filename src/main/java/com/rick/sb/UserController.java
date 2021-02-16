@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/user")
 public class UserController {
-    @GetMapping
+	
+	@GetMapping("/v2/request")
     public Response<Map<String, Object>> get(){
         Response<Map<String, Object>> response = new Response<>();
         Map<String, Object> user = new HashMap<>();
