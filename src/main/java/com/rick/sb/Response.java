@@ -6,7 +6,6 @@ public class Response<T> {
      * 接口响应代码
      */
     private int code = 200;
-
     /**
      * 接口访问信息
      */
