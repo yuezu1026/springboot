@@ -15,7 +15,7 @@ public class UserController {
     public Response<Map<String, Object>> get(){
         Response<Map<String, Object>> response = new Response<>();
         Map<String, Object> user = new HashMap<>();
-        user.put("name", "wangyaozu");
+        user.put("name", "wangyaozu1");
         user.put("age", 25);
         response.setData(user);
         return  response;
