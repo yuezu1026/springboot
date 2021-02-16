@@ -15,9 +15,9 @@ public class UserController {
     public Response<Map<String, Object>> get(){
         Response<Map<String, Object>> response = new Response<>();
         Map<String, Object> user = new HashMap<>();
-        user.put("name", "wangyaozu2");
-        user.put("age", 25);
-        response.setData(user); dfsdf
+        user.put("name", "hello world");
+        user.put("age", 26);
+        response.setData(user); 
         return  response;
     }
 }
