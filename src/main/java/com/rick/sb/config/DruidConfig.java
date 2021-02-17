@@ -33,7 +33,7 @@ public class DruidConfig {
         map.put("loginUsername","admin");
         map.put("loginPassword","123456");
         map.put("allow","");
-        map.put("deny","14.153.78.101");
+        map.put("deny","");
           bean.setInitParameters(map);
           return bean;
     }
