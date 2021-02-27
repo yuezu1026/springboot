@@ -18,7 +18,7 @@ public class ProductController {
 	    
         Response<Map<String, Object>> response = new Response<>();
         Map<String, Object> user = new HashMap<>();
-        user.put("name", "王耀祖2");
+        user.put("name", "王耀祖3");
         user.put("age", 27);
         response.setData(user); 
         return  response;
