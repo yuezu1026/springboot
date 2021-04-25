@@ -16,7 +16,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     initiaSize: 5
-    minIdle: 5
+    minIdle: 5 
     maxActive: 20
     maxWait: 60000
     timeBetweenEvictionRunsMillis: 60000
